@@ -1,6 +1,6 @@
 """
-Author: Kevin Gustafson (Brendon Wong worked on 2026-02-26)
-Date: 2026-01-29
+Author: Kevin Gustafson (Brendon Wong worked on this file on 2026-02-26)
+Date: 2026-10-23
 Program Description: Command line interface for iExtract.
 """
 
