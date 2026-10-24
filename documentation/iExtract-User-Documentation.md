@@ -75,7 +75,7 @@ Users can report bugs through the in-app “Report Bug” option, which will lin
 * What they expected to happen  
 * What actually happened
 
-**Known Bugs or Limitations:** Known bugs or limitations should be documented in the bug tracker. A user testing the implemented use case(s) should not encounter trivial bugs (e.g., NPEs) or a large number of bugs that are unlisted in the bug tracker.
+**Known Bugs or Limitations:** Known bugs or limitations should be documented in the bug tracker.
 
 - **Bugs:**  
   * [GitHub Issue Tracker: Bugs](https://github.com/Gustakev/iExtract/issues?q=state%3Aopen%20label%3Abug)  

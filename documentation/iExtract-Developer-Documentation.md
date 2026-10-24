@@ -12,10 +12,8 @@
 * INSTALL.md: End-user installation instructions.  
 * SETUP.md: System administrator / developer deployment and setup guide.  
 * RELEASE\_NOTES.md: Release notes for the current version of iExtract.  
-* requirements.txt: A list of required modules that the user must install via ‘pip install \-r requirements.txt’, or manually for each, in order to use iExtract.  
-* team-resources.md: Describes the resources that the team uses, including relevant artifacts, libraries, etc.  
+* requirements.txt: A list of required modules that the user must install via ‘pip install \-r requirements.txt’, or manually for each, in order to use iExtract.   
 * /.github/workflows/: Stores the workflow ‘.yml’ file describing how continuous integration testing will be conducted.  
-* /beta-testing/: Contains beta testing feedback PDFs from the in-class beta testing exercise.  
 * /cli\_components/: Stores the code that runs the CLI and the Textual UI (TUI) for the application, accepting user interaction and calling logic from the ‘functional\_components’ directory to accomplish a given goal.  
 * /documentation/: Stores the user and developer documentation for iExtract.  
 * /functional\_components/: Stores all backend logic and features of iExtract.
@@ -42,8 +40,6 @@
   * services.py: Application Layer service classes that bridge the Presentation Layer with the functional components.  
   * iphone\_models.json: Maps internal Apple model identifiers to branded display names.  
   * directory-explanation.md: An explanation of the directory structure.  
-* /living\_documents/: Stores the project living document covering requirements, architecture, design, test plan, and reflections.  
-* /reports/: Holds weekly progress reports for our project. Each report contains a weekly status update from our TA and the individual contributions of each team member for that week.  
 * /tests/: Stores the test cases that are being used against the program.  
   * /test\_data/: Stores data for tests, if needed.
 
@@ -92,7 +88,7 @@
 3. Files must end with ‘.py’  
 4. **NOTE:** Any test data, like CSV files, for example, must go in the ‘test\_data’ folder within the ‘tests’ folder.
 
-	*Example Test:* ‘test\_backup\_locator.py’
+	*Example Test:* ‘test\_backup\_locator\_and\_validator.py’
 
 *Conventions (Within Test Files):* Test cases will start each function with ‘test\_’ followed by the task.
 
