@@ -599,8 +599,8 @@ def album_selection_submenu():
 
 def help_user():
     """Links user to our documentation that explains how our program works."""
-    dev_doc = "https://github.com/Gustakev/cs362-class-project/blob/main/documentation/iExtract-Developer-Documentation.md"
-    user_doc = "https://github.com/Gustakev/cs362-class-project/blob/main/documentation/iExtract-User-Documentation.md"
+    dev_doc = "https://github.com/Gustakev/iExtract/blob/main/documentation/iExtract-Developer-Documentation.md"
+    user_doc = "https://github.com/Gustakev/iExtract/blob/main/documentation/iExtract-User-Documentation.md"
 
     while True:
         print(
@@ -631,7 +631,7 @@ def help_user():
 
 def report_bug():
     """Links to github issues if there is a bug found."""
-    issues_url = "https://github.com/Gustakev/cs362-class-project/issues/new"
+    issues_url = "https://github.com/Gustakev/iExtract/issues/new"
     print("Loading...")
     webbrowser.open_new_tab(issues_url)
     return

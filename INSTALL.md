@@ -8,12 +8,12 @@
 
 1. Open your terminal and clone the repo:
 ```bash
-git clone https://github.com/Gustakev/cs362-class-project.git
+git clone https://github.com/Gustakev/iExtract.git
 ```
 
 2. Move into the repo:
 ```bash
-cd cs362-class-project
+cd iExtract
 ```
 
 3. Start a virtual environment:

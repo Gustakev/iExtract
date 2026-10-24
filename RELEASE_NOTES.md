@@ -17,4 +17,4 @@ From the repo root, see `INSTALL.md` for full setup instructions.
 All major features (excluding the Photo Descriptor demo) listed above are fully functional. See the living document (`living_documents/CS 362 - Project Living Document.md`) for full use-case details.
 
 ## Known Issues
-See open issues: https://github.com/Gustakev/cs362-class-project/issues?q=is:open
+See open issues: https://github.com/Gustakev/iExtract/issues?q=is:open

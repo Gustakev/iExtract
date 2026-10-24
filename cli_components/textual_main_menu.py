@@ -683,18 +683,18 @@ class iExtractApp(App):
         # --Help Menu ----
 
         if btn_id == "btn_help_user":
-            user_doc = "https://github.com/Gustakev/cs362-class-project/blob/main/documentation/iExtract-User-Documentation.md"
+            user_doc = "https://github.com/Gustakev/iExtract/blob/main/documentation/iExtract-User-Documentation.md"
             log.write_line("[INFO] Opening User Documentation in browser...")
             webbrowser.open_new_tab(user_doc)
 
         if btn_id == "btn_help_dev":
-            dev_doc = "https://github.com/Gustakev/cs362-class-project/blob/main/documentation/iExtract-Developer-Documentation.md"
+            dev_doc = "https://github.com/Gustakev/iExtract/blob/main/documentation/iExtract-Developer-Documentation.md"
             log.write_line("[INFO] Opening Developer Documentation in browser...")
             webbrowser.open_new_tab(dev_doc)
 
         if btn_id == "btn_bug":
 
-            issues_url = "https://github.com/Gustakev/cs362-class-project/issues/new"
+            issues_url = "https://github.com/Gustakev/iExtract/issues/new"
             log.write_line("[INFO] Opening GitHub Issues for bug report...")
             webbrowser.open_new_tab(issues_url)
 

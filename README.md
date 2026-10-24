@@ -6,7 +6,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Version-v1.0.0-red">
-  <img src="https://github.com/Gustakev/cs362-class-project/actions/workflows/ci.yml/badge.svg">
+  <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg">
+  <img src="https://github.com/Gustakev/iExtract/actions/workflows/ci.yml/badge.svg">
 </p>
 
 ## Project Overview
@@ -18,6 +19,7 @@ iExtract makes it easy for iPhone users to extract their photos and videos from 
 - [Install](#Install)
 - [Usage](#Usage)
 - [Documentation](#Documentation)
+- [License](#License)
 
 ## Goal of Our App
 * Provide a fast and intuitive export process for iOS media using a backup as the source
@@ -33,6 +35,8 @@ iExtract makes it easy for iPhone users to extract their photos and videos from 
 - `INSTALL.md`: End-user installation instructions.
 - `SETUP.md`: System administrator / developer deployment and setup guide.
 - `RELEASE_NOTES.md`: Release notes for the current version of iExtract.
+- `LICENSE`: The Apache License 2.0, which governs this project.
+- `NOTICE`: The credits (contributor names) that must be kept with any copy or modified version of iExtract.
 - `requirements.txt`: A list of required modules that the user must install via `pip install -r requirements.txt`, or manually for each, in order to use iExtract.
 - `team-resources.md`: Describes the resources that the team uses, including relevant artifacts, libraries, etc.
 
@@ -82,14 +86,14 @@ iExtract makes it easy for iPhone users to extract their photos and videos from 
 ### **Build**
 ```bash
 # HTTPS Clone:
-git clone https://github.com/Gustakev/cs362-class-project.git
+git clone https://github.com/Gustakev/iExtract.git
 # or SSH Clone:
-git clone git@github.com:Gustakev/cs362-class-project.git
+git clone git@github.com:Gustakev/iExtract.git
 # or GitHub CLI Clone:
-gh repo clone Gustakev/cs362-class-project
+gh repo clone Gustakev/iExtract
 
 # Then...
-cd cs362-class-project/
+cd iExtract/
 python -m venv venv
 
 # If Windows, run:
@@ -164,7 +168,14 @@ Steps:
 - Wait for the extraction to finish.
 
 ## Documentation
-- <a href="https://github.com/Gustakev/cs362-class-project/blob/main/documentation/iExtract-Developer-Documentation.md"> Developer Documentation</a>
-- <a href="https://github.com/Gustakev/cs362-class-project/blob/main/documentation/iExtract-User-Documentation.md"> User Documentation</a>
+- <a href="https://github.com/Gustakev/iExtract/blob/main/documentation/iExtract-Developer-Documentation.md"> Developer Documentation</a>
+- <a href="https://github.com/Gustakev/iExtract/blob/main/documentation/iExtract-User-Documentation.md"> User Documentation</a>
 
-- **Beta Test Feedback Note**: All GitHub issues created in response to beta tester feedback are tagged with the 'beta-test-1' label. All but one of the identified issues have been resolved and closed. The only one that hasn't yet been resolved is not a bug, but rather an enhancement suggestion (issue #46). Here is a link to those issues: <a href="https://github.com/Gustakev/cs362-class-project/issues?q=label%3Abeta-test-1">
+- **Beta Test Feedback Note**: All GitHub issues created in response to beta tester feedback are tagged with the 'beta-test-1' label. All but one of the identified issues have been resolved and closed. The only one that hasn't yet been resolved is not a bug, but rather an enhancement suggestion (issue #46). Here is a link to those issues: <a href="https://github.com/Gustakev/iExtract/issues?q=label%3Abeta-test-1">beta-test-1 issues</a>
+
+## License
+iExtract is licensed under the [Apache License, Version 2.0](LICENSE).
+
+Copyright 2026 Kevin Gustafson, Sam Daughtry, Noah Gregie, and Brendon Wong. iExtract started as a CS 362 class project at Oregon State University.
+
+In short: you may use, modify, and distribute iExtract, including commercially and in closed-source versions, as long as you keep the license text and the credits in [`NOTICE`](NOTICE) with any copy or modified version you distribute. This summary is not a substitute for the full license text in [`LICENSE`](LICENSE).

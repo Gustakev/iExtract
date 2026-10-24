@@ -17,8 +17,8 @@ Before downloading the source package, the host system must be provisioned with 
 Users should pull the latest stable branch from the repository to the host machine:
 
 ```bash
-git clone https://github.com/Gustakev/cs362-class-project.git
-cd cs362-class-project
+git clone https://github.com/Gustakev/iExtract.git
+cd iExtract
 ```
 
 ## 3. Environment Deployment & Libraries

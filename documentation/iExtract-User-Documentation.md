@@ -17,9 +17,9 @@ This program allows users to export their iPhone photo albums locally without re
 
 1. **Clone repo**  
    1. In the terminal (using the shell of your choice) run the command:  
-      \`git clone https://github.com/Gustakev/cs362-class-project.git\`    
+      \`git clone https://github.com/Gustakev/iExtract.git\`    
 2. **Move to repo location**  
-   1. In the terminal, run the command:  \`cd cs362-class-project\`  
+   1. In the terminal, run the command:  \`cd iExtract\`  
 3. **Install Python**  
    1. Install Python 3.13+ for your system from this link: [https://www.python.org/downloads/](https://www.python.org/downloads/)  
 4. **Initialize virtual environment**  
@@ -68,7 +68,7 @@ In the terminal run the command:  \`python iExtract.py\`   The program will prom
 
 **How to Report a Bug**
 
-Users can report bugs through the in-app “Report Bug” option, which will link to the project’s GitHub issue tracker: [https://github.com/Gustakev/cs362-class-project/issues](https://github.com/Gustakev/cs362-class-project/issues). When submitting a bug report, users should include the following:
+Users can report bugs through the in-app “Report Bug” option, which will link to the project’s GitHub issue tracker: [https://github.com/Gustakev/iExtract/issues](https://github.com/Gustakev/iExtract/issues). When submitting a bug report, users should include the following:
 
 * Which feature had the issue  
 * What action they were attempting  
@@ -78,6 +78,6 @@ Users can report bugs through the in-app “Report Bug” option, which will lin
 **Known Bugs or Limitations:** Known bugs or limitations should be documented in the bug tracker. A user testing the implemented use case(s) should not encounter trivial bugs (e.g., NPEs) or a large number of bugs that are unlisted in the bug tracker.
 
 - **Bugs:**  
-  * [GitHub Issue Tracker: Bugs](https://github.com/Gustakev/cs362-class-project/issues?q=state%3Aopen%20label%3Abug)  
+  * [GitHub Issue Tracker: Bugs](https://github.com/Gustakev/iExtract/issues?q=state%3Aopen%20label%3Abug)  
 - **Limitations:**  
   * No major limitations at this time, beyond limited device support confirmation.

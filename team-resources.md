@@ -76,7 +76,7 @@ Lists **every artifact** the team relies on: tools, documents, external resource
 - Issue tracker (GitHub Issues):
   - We use GitHub Issues to track bugs and minor tasks discovered during development.
 - Weekly progress reports in GitHub repo:
-  - [Click here](https://github.com/Gustakev/cs362-class-project/tree/main/reports).
+  - [Click here](https://github.com/Gustakev/iExtract/tree/main/reports).
 - CI/CD (GitHub Actions):
   - Automated test suite runs on every push and pull request to the repository via GitHub Actions, using `unittest`. Status badge visible in the README.
 - Packaging (PyInstaller):

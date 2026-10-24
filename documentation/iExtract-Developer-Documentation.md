@@ -2,7 +2,7 @@
 
 **Source Code:**
 
-* **iExtract:**  [https://github.com/Gustakev/cs362-class-project](https://github.com/Gustakev/cs362-class-project)   
+* **iExtract:**  [https://github.com/Gustakev/iExtract](https://github.com/Gustakev/iExtract)   
 * **Photo Captioning Component:** [https://github.com/BrendxnW/image-captioning-cnn-lstm](https://github.com/BrendxnW/image-captioning-cnn-lstm)
 
 **Directory Structure**:
@@ -52,10 +52,10 @@
 1. **Clone repo**  
    1. In the terminal (using the shell of your choice) run the command:
 
-      \`git clone https://github.com/Gustakev/cs362-class-project.git\`  
+      \`git clone https://github.com/Gustakev/iExtract.git\`  
 
 2. **Move to repo location**  
-   1. In the terminal, run the command:  \`cd cs362-class-project\`  
+   1. In the terminal, run the command:  \`cd iExtract\`  
 3. **Install Python**  
    1. Install Python 3.13+ for your system from this link: [https://www.python.org/downloads/](https://www.python.org/downloads/)  
 4. **Initialize virtual environment**  
