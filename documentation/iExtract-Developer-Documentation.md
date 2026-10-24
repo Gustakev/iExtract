@@ -12,6 +12,8 @@
 * INSTALL.md: End-user installation instructions.  
 * SETUP.md: System administrator / developer deployment and setup guide.  
 * RELEASE\_NOTES.md: Release notes for the current version of iExtract.  
+* LICENSE: The Apache License 2.0, which governs this project.  
+* NOTICE: The credits (contributor names) that must be kept with any copy or modified version of iExtract.
 * requirements.txt: A list of required modules that the user must install via ‘pip install \-r requirements.txt’, or manually for each, in order to use iExtract.   
 * /.github/workflows/: Stores the workflow ‘.yml’ file describing how continuous integration testing will be conducted.  
 * /cli\_components/: Stores the code that runs the CLI and the Textual UI (TUI) for the application, accepting user interaction and calling logic from the ‘functional\_components’ directory to accomplish a given goal.  
@@ -43,7 +45,7 @@
 * /tests/: Stores the test cases that are being used against the program.  
   * /test\_data/: Stores data for tests, if needed.
 
-**How to Build the Software:** Provide clear instructions for how to use your project’s build system to build all system components.
+**How to Build the Software:** Run the following steps from a fresh clone.
 
 1. **Clone repo**  
    1. In the terminal (using the shell of your choice) run the command:
@@ -92,7 +94,7 @@
 
 *Conventions (Within Test Files):* Test cases will start each function with ‘test\_’ followed by the task.
 
-**How to Build a Release of the Software:** Describe any tasks that are not automated. For example, should a developer update a version number (in code and documentation) prior to invoking the build system? Are there any sanity checks a developer should perform after building a release?
+**How to Build a Release of the Software:**
 
 *Follow These Steps:*
 
