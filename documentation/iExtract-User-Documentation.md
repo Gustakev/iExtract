@@ -76,7 +76,7 @@ The program will prompt a command-line interface in the terminal.
 
 - **Option 4: Settings (Work in Progress)**
 
-  Provides configuration options such as conversion options, an option to exclude all media that is marked as hidden in the . Additional settings and customization options are planned. The user must enter this menu, select the correct submenu, e.g., 'Conversion Settings', and set up the extraction however they would like to.
+  Provides configuration options such as conversion options, an option to exclude all media that is marked as hidden. Additional settings and customization options are planned. The user must enter this menu, select the correct submenu, e.g., 'Conversion Settings', and set up the extraction however they would like to.
 
 - **Option 5: Help (Work in Progress)**
 
