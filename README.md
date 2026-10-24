@@ -38,11 +38,8 @@ iExtract makes it easy for iPhone users to extract their photos and videos from 
 - `LICENSE`: The Apache License 2.0, which governs this project.
 - `NOTICE`: The credits (contributor names) that must be kept with any copy or modified version of iExtract.
 - `requirements.txt`: A list of required modules that the user must install via `pip install -r requirements.txt`, or manually for each, in order to use iExtract.
-- `team-resources.md`: Describes the resources that the team uses, including relevant artifacts, libraries, etc.
 
 - `/.github/workflows/`: Stores the workflow `.yml` file describing how continuous integration testing will be conducted.
-
-- `/beta-testing/`: Contains beta testing feedback PDFs from the in-class beta testing exercise.
 
 - `/cli_components/`: Stores the code that runs the CLI and the Textual UI (TUI) for the application, accepting user interaction and calling logic from the `functional_components` directory to accomplish a given goal.
 
@@ -71,10 +68,6 @@ iExtract makes it easy for iPhone users to extract their photos and videos from 
   - `services.py`: Application Layer service classes that bridge the Presentation Layer with the functional components.
   - `iphone_models.json`: Maps internal Apple model identifiers to branded display names.
   - `directory-explanation.md`: An explanation of the directory structure.
-
-- `/living_documents/`: Stores the project living document covering requirements, architecture, design, test plan, and reflections.
-
-- `/reports/`: Holds weekly progress reports for our project. Each report contains a weekly status update from our TA and the individual contributions of each team member for that week.
 
 - `/tests/`: Stores the test cases that are being used against the program.
   - `/test_data/`: Stores data for tests, if needed.
